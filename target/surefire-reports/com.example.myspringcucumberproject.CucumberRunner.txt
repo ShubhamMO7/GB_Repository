@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.example.myspringcucumberproject.CucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.611 s <<< FAILURE! -- in com.example.myspringcucumberproject.CucumberRunner
+Facebook Login.User logs in to Facebook -- Time elapsed: 8.340 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Facebook> but was: <Facebook – log in or sign up>
+	at com.example.myspringcucumberproject.steps.LoginStepDefinitions.user_is_successfully_logged_in(LoginStepDefinitions.java:45)
+	at ✽.User is successfully logged in(classpath:features/login.feature:7)
+
